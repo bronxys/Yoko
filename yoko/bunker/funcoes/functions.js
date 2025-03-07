@@ -1,1 +1,270 @@
-const _0x3b90f3=_0x3cc4;(function(_0x111839,_0x418529){const _0x3d830d=_0x3cc4,_0x35db3d=_0x111839();while(!![]){try{const _0x516723=-parseInt(_0x3d830d(0x8a))/0x1+parseInt(_0x3d830d(0xa1))/0x2*(parseInt(_0x3d830d(0xb1))/0x3)+-parseInt(_0x3d830d(0x81))/0x4+-parseInt(_0x3d830d(0xdd))/0x5*(-parseInt(_0x3d830d(0xe8))/0x6)+parseInt(_0x3d830d(0x85))/0x7*(parseInt(_0x3d830d(0xa0))/0x8)+parseInt(_0x3d830d(0x84))/0x9*(parseInt(_0x3d830d(0xb5))/0xa)+-parseInt(_0x3d830d(0x8d))/0xb;if(_0x516723===_0x418529)break;else _0x35db3d['push'](_0x35db3d['shift']());}catch(_0x3ebc27){_0x35db3d['push'](_0x35db3d['shift']());}}}(_0x9f5f,0xda3a7));const fetch=require(_0x3b90f3(0xc8)),fs=require('fs'),axios=require(_0x3b90f3(0xb4)),cfonts=require(_0x3b90f3(0x95)),Crypto=require('crypto'),chalk=require(_0x3b90f3(0xd2)),exec=require(_0x3b90f3(0xaa))[_0x3b90f3(0xcb)],log=console[_0x3b90f3(0x9f)],mimetype=require('mime-types'),cheerio=require('cheerio'),{spawn}=require(_0x3b90f3(0xaa)),ff=require(_0x3b90f3(0xe4)),{JSDOM}=require(_0x3b90f3(0xe7)),FormData=require(_0x3b90f3(0xd8)),qs=require('qs'),{fromBuffer}=require(_0x3b90f3(0x89)),toMs=require('ms'),request=require(_0x3b90f3(0xac)),ffmpeg=require(_0x3b90f3(0xe4)),moment=require('moment-timezone');var corzinhas=['red','green',_0x3b90f3(0xd4),_0x3b90f3(0xc3),'magenta',_0x3b90f3(0xab),'','gray',_0x3b90f3(0x96),_0x3b90f3(0xe0),_0x3b90f3(0xa3),_0x3b90f3(0xcd),_0x3b90f3(0xb9),_0x3b90f3(0xeb),_0x3b90f3(0x82)];const cor1=corzinhas[Math[_0x3b90f3(0xd7)](Math[_0x3b90f3(0x9c)]()*corzinhas[_0x3b90f3(0x97)])],cor2=corzinhas[Math[_0x3b90f3(0xd7)](Math['random']()*corzinhas[_0x3b90f3(0x97)])],cor3=corzinhas[Math[_0x3b90f3(0xd7)](Math[_0x3b90f3(0x9c)]()*corzinhas[_0x3b90f3(0x97)])],cor4=corzinhas[Math[_0x3b90f3(0xd7)](Math[_0x3b90f3(0x9c)]()*corzinhas[_0x3b90f3(0x97)])],cor5=corzinhas[Math[_0x3b90f3(0xd7)](Math[_0x3b90f3(0x9c)]()*corzinhas[_0x3b90f3(0x97)])],ceemde=JSON['parse'](fs['readFileSync']('./yoko/bunker/database/data/totalcmd.json')),getpc=async function(_0x3280b5){const _0x535ea1=_0x3b90f3;pc=[],a=[],b=[];for(var _0x180cd5 of _0x3280b5){a[_0x535ea1(0xc9)](_0x180cd5['id']);}for(var _0x1c8984 of a){_0x1c8984&&!_0x1c8984[_0x535ea1(0xad)](_0x535ea1(0xb7))&&b[_0x535ea1(0xc9)](_0x1c8984);}return b;};function upload(_0x4d7c41){return new Promise(async(_0x1213a2,_0x37c32c)=>{const _0x292c8f=_0x3cc4;try{let {ext:_0x5110ae}=await fromBuffer(_0x4d7c41),_0x75c7a1=new FormData();_0x75c7a1[_0x292c8f(0x8b)](_0x292c8f(0xe3),_0x4d7c41,_0x292c8f(0xc2)+_0x5110ae),await fetch(_0x292c8f(0xd1),{'method':'POST','body':_0x75c7a1})[_0x292c8f(0xaf)](_0x34840f=>_0x34840f[_0x292c8f(0xce)]())[_0x292c8f(0xaf)](_0x1f75fb=>{const _0x39b414=_0x292c8f;_0x1213a2(_0x39b414(0x9a)+_0x1f75fb[0x0][_0x39b414(0x87)]);})[_0x292c8f(0xda)](_0xb5df79=>_0x37c32c(_0xb5df79));}catch(_0x130e66){return console['log'](_0x130e66);}});}function convertSticker(_0x53447a,_0x511f05,_0x385c5f){return new Promise((_0x66ffcb,_0xe5b84c)=>{const _0x865e8e=_0x3cc4;axios(_0x865e8e(0xc0),{'method':_0x865e8e(0x80),'headers':{'Accept':_0x865e8e(0x94),'Content-Type':'application/json;charset=utf-8','User-Agent':'axios/0.21.1','Content-Length':0x24f22},'data':_0x865e8e(0xa2)+_0x53447a+'\x22,\x22stickerMetadata\x22:{\x22author\x22:\x22'+_0x511f05+_0x865e8e(0xc5)+_0x385c5f+'\x22,\x22keepScale\x22:true,\x22removebg\x22:\x22HQ\x22},\x22sessionInfo\x22:{\x22WA_VERSION\x22:\x222.2106.5\x22,\x22PAGE_UA\x22:\x22WhatsApp/2.2037.6\x20Mozilla/5.0\x20(Macintosh;\x20Intel\x20Mac\x20OS\x20X\x2010_15_6)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/85.0.4183.83\x20Safari/537.36\x22,\x22WA_AUTOMATE_VERSION\x22:\x223.6.10\x20UPDATE\x20AVAILABLE:\x203.6.11\x22,\x22BROWSER_VERSION\x22:\x22HeadlessChrome/88.0.4324.190\x22,\x22OS\x22:\x22Windows\x20Server\x202016\x22,\x22START_TS\x22:1614310326309,\x22NUM\x22:\x226247\x22,\x22LAUNCH_TIME_MS\x22:7934,\x22PHONE_VERSION\x22:\x222.20.205.16\x22},\x22config\x22:{\x22sessionId\x22:\x22session\x22,\x22headless\x22:true,\x22qrTimeout\x22:20,\x22authTimeout\x22:0,\x22cacheEnabled\x22:false,\x22useChrome\x22:true,\x22killProcessOnBrowserClose\x22:true,\x22throwErrorOnTosBlock\x22:false,\x22chromiumArgs\x22:[\x22--no-sandbox\x22,\x22--disable-setuid-sandbox\x22,\x22--aggressive-cache-discard\x22,\x22--disable-cache\x22,\x22--disable-application-cache\x22,\x22--disable-offline-load-stale-cache\x22,\x22--disk-cache-size=0\x22],\x22executablePath\x22:\x22C:\x5c\x5cProgram\x20Files\x20(x86)\x5c\x5cGoogle\x5c\x5cChrome\x5c\x5cApplication\x5c\x5cchrome.exe\x22,\x22skipBrokenMethodsCheck\x22:true,\x22stickerServerEndpoint\x22:true}}'})[_0x865e8e(0xaf)](({data:_0x55a67d})=>{_0x66ffcb(_0x55a67d['webpBase64']);})['catch'](_0xe5b84c);});}exports[_0x3b90f3(0xca)]=fetchJson=(_0x1b627b,_0x5e2def)=>new Promise(async(_0xf29b75,_0x50d1bc)=>{const _0x47f9ff=_0x3b90f3;fetch(_0x1b627b,_0x5e2def)[_0x47f9ff(0xaf)](_0x10e14f=>_0x10e14f[_0x47f9ff(0xce)]())[_0x47f9ff(0xaf)](_0x18a236=>{_0xf29b75(_0x18a236);})[_0x47f9ff(0xda)](_0x31da0a=>{_0x50d1bc(_0x31da0a);});}),exports[_0x3b90f3(0x9e)]=fetchText=(_0x57d7ad,_0x198b35)=>new Promise(async(_0x334af5,_0x20e4af)=>{const _0x874a77=_0x3b90f3;fetch(_0x57d7ad,_0x198b35)[_0x874a77(0xaf)](_0x13add1=>_0x13add1[_0x874a77(0xbd)]())[_0x874a77(0xaf)](_0x34ca56=>{_0x334af5(_0x34ca56);})['catch'](_0xd44e36=>{_0x20e4af(_0xd44e36);});}),exports[_0x3b90f3(0xa7)]=(_0x5d7849,_0x2da978)=>{const _0x376b62=_0x3b90f3,_0x2aad55=[0x0,0x0,0x16,0x0,0x0,0x0],_0x4cfabb={'sticker-pack-id':_0x376b62(0xa6),'sticker-pack-name':_0x5d7849,'sticker-pack-publisher':_0x2da978,'android-app-store-link':_0x376b62(0xc1),'ios-app-store-link':'https://itunes.apple.com/app/sticker-maker-studio/id1443326857'};let _0x3330b7=JSON[_0x376b62(0xd6)](_0x4cfabb)[_0x376b62(0x97)];_0x3330b7>0x100?(_0x3330b7=_0x3330b7-0x100,_0x2aad55[_0x376b62(0xae)](0x1)):_0x2aad55[_0x376b62(0xae)](0x0);_0x3330b7<0x10?(_0x3330b7=_0x3330b7[_0x376b62(0xdb)](0x10),_0x3330b7='0'+_0x3330b7):_0x3330b7=_0x3330b7['toString'](0x10);const _0x41ae42=Buffer[_0x376b62(0xc7)]([0x49,0x49,0x2a,0x0,0x8,0x0,0x0,0x0,0x1,0x0,0x41,0x57,0x7,0x0]),_0x18fc77=Buffer['from'](_0x3330b7,_0x376b62(0xe9)),_0x2f694c=Buffer[_0x376b62(0xc7)](_0x2aad55),_0x2801b9=Buffer[_0x376b62(0xc7)](JSON['stringify'](_0x4cfabb));fs[_0x376b62(0xcf)]('./yoko/bunker//sticker/data.exif',Buffer[_0x376b62(0x9b)]([_0x41ae42,_0x18fc77,_0x2f694c,_0x2801b9]),function(_0x1865d9){const _0x1f4cbe=_0x376b62;console['log'](_0x1865d9);if(_0x1865d9)return console[_0x1f4cbe(0x88)](_0x1865d9);return _0x1f4cbe(0x92);});};const getBuffer=async(_0x59655d,_0x28c17c)=>{const _0x37eba4=_0x3b90f3;try{_0x28c17c?_0x28c17c:{};const _0xcbc424=await axios({'method':_0x37eba4(0xa8),'url':_0x59655d,'headers':{'user-agent':'Mozilla/5.0\x20(Windows\x20NT\x206.3;\x20Win64;\x20x64)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/89.0.4389.128\x20Safari/537.36','DNT':0x1,'Upgrade-Insecure-Request':0x1},..._0x28c17c,'responseType':_0x37eba4(0xbf)});return _0xcbc424[_0x37eba4(0x8f)];}catch(_0x3399c4){console['log'](_0x37eba4(0xcc)+_0x3399c4);}},randomBytes=_0x1bc4b6=>{const _0xc68c86=_0x3b90f3;return Crypto[_0xc68c86(0xe1)](_0x1bc4b6);},generateMessageID=()=>{const _0x4ff107=_0x3b90f3;return randomBytes(0xa)['toString'](_0x4ff107(0xe9))[_0x4ff107(0xbb)]();},getExtension=async _0x27914a=>{const _0x2a4211=_0x3b90f3;return await mimetype[_0x2a4211(0x98)](_0x27914a);},getGroupAdmins=_0x5dd50e=>{const _0x43500d=_0x3b90f3;admins=[];for(let _0x3dd883 of _0x5dd50e){if(_0x3dd883[_0x43500d(0xd9)]=='admin')admins[_0x43500d(0xc9)](_0x3dd883['id']);if(_0x3dd883[_0x43500d(0xd9)]==_0x43500d(0xa4))admins['push'](_0x3dd883['id']);}return admins;},getMembros=_0x831a8=>{const _0xdec2cb=_0x3b90f3;admins=[];for(let _0x176d06 of _0x831a8){if(_0x176d06[_0xdec2cb(0xd9)]==null)admins[_0xdec2cb(0xc9)](_0x176d06['id']);}return admins;},getRandom=_0x371ac4=>{const _0x77466f=_0x3b90f3;return''+Math[_0x77466f(0xd7)](Math[_0x77466f(0x9c)]()*0x2710)+_0x371ac4;},banner2=cfonts['render'](_0x3b90f3(0x8e),{'font':'console','align':'center','colors':[_0x3b90f3(0xa5),''+cor3,''+cor4,''+cor2],'background':_0x3b90f3(0xe5)}),banner3=cfonts[_0x3b90f3(0xde)]('YOKO\x20BOT\x20V6',{'font':'block','align':'center','colors':[_0x3b90f3(0xa5),''+cor3,''+cor4,''+cor2],'background':_0x3b90f3(0xe5),'letterSpacing':0x1,'lineHeight':0x1,'space':!![],'maxLength':'0','gradrient':[''+cor4,''+cor2],'independentGradient':![],'transitionGradient':![],'env':_0x3b90f3(0xe2)});function temporizador(_0x5b4d4a){const _0x31cea2=_0x3b90f3;function _0x4c312f(_0x33a5e8){return(_0x33a5e8<0xa?'0':'')+_0x33a5e8;}var _0x8c7d3f=Math[_0x31cea2(0xd7)](_0x5b4d4a/(0x3c*0x3c)),_0x25fc71=Math[_0x31cea2(0xd7)](_0x5b4d4a%(0x3c*0x3c)/0x3c),_0x5b4d4a=Math[_0x31cea2(0xd7)](_0x5b4d4a%0x3c);return _0x4c312f(_0x8c7d3f)+':'+_0x4c312f(_0x25fc71)+':'+_0x4c312f(_0x5b4d4a);}const color=(_0x1edf73,_0x4c54d0)=>{const _0x288941=_0x3b90f3;return!_0x4c54d0?chalk[_0x288941(0xd0)](_0x1edf73):chalk[_0x288941(0xbc)](_0x4c54d0)(_0x1edf73);},bgcolor=(_0x59eca8,_0x13626a)=>{const _0x26e6fe=_0x3b90f3;return!_0x13626a?chalk[_0x26e6fe(0xd0)](_0x59eca8):chalk[_0x26e6fe(0xb6)](_0x13626a)(_0x59eca8);};function _0x9f5f(){const _0x2f25af=['28967SeEIte','append','lang','33281479udGqMz','YOKO\x20V6\x20BY\x20FANTASMA\x20MODS','data','user-words','oem','./arquivos/sticker/data.exif','stdout','application/json,\x20text/plain,\x20*/*','cfonts','redBright','length','extension','command','https://telegra.ph','concat','random','user-patterns','fetchText','debug','44760rFDPso','1664774ofjvJq','{\x22image\x22:\x20\x22','yellowBright','superadmin','red','com.client.tech','createExif','get','delete','child_process','cyan','request','includes','unshift','then','tessdata-dir','6HLCtQw','presets','filter','axios','849090dFPsgf','bgKeyword','g.us','-c\x20','magentaBright','add','toUpperCase','keyword','text','binary','arraybuffer','https://sticker-api-tpe3wet7da-uc.a.run.app/prepareWebp','https://play.google.com/store/apps/details?id=com.termux','tmp.','blue','has','\x22,\x22pack\x22:\x22','Criador:\x20Fantasmamods\x20Oficial','from','node-fetch','push','fetchJson','exec','Erro\x20identificado:\x20','blueBright','json','writeFileSync','green','https://telegra.ph/upload','chalk','dpi','yellow','YOKO\x20BOT','stringify','floor','form-data','admin','catch','toString','entries','56660gSSuWJ','render','-l\x20','greenBright','randomBytes','node','file','fluent-ffmpeg','transparent','psm','jsdom','396myvZBA','hex','5511964752915@s.whatsapp.net','cyanBright','POST','1193544CEjyHH','whiteBright','exports','144olWAXC','595EmdTTB','tesseract','src','error','file-type'];_0x9f5f=function(){return _0x2f25af;};return _0x9f5f();}function recognize(_0x27c78f,_0x38ef90={}){const _0x263a3e=_0x3b90f3,_0x253efd=getOptions(_0x38ef90),_0x46eef4=_0x38ef90[_0x263a3e(0xbe)]||_0x263a3e(0x86),_0x280f53=[_0x46eef4,'\x22'+_0x27c78f+'\x22',_0x263a3e(0x93),..._0x253efd]['join']('\x20');if(_0x38ef90['debug'])log(_0x263a3e(0x99),_0x280f53);return new Promise((_0x1f3908,_0x326889)=>{exec(_0x280f53,(_0x53b8fb,_0x11bc26,_0x2f378f)=>{const _0x5a5f3d=_0x3cc4;if(_0x38ef90[_0x5a5f3d(0x9f)])log(_0x2f378f);if(_0x53b8fb)_0x326889(_0x53b8fb);_0x1f3908(_0x11bc26);});});}function getOptions(_0x7915a8){const _0xbcfac2=_0x3b90f3,_0x441037=[_0xbcfac2(0xb0),_0xbcfac2(0x90),_0xbcfac2(0x9d),_0xbcfac2(0xe6),_0xbcfac2(0x91),_0xbcfac2(0xd3)];return Object[_0xbcfac2(0xdc)](_0x7915a8)['map'](([_0x448f5a,_0x17c754])=>{const _0x2abaea=_0xbcfac2;if([_0x2abaea(0x9f),_0x2abaea(0xb2),'binary'][_0x2abaea(0xad)](_0x448f5a))return;if(_0x448f5a===_0x2abaea(0x8c))return _0x2abaea(0xdf)+_0x17c754;if(_0x441037['includes'](_0x448f5a))return'--'+_0x448f5a+'\x20'+_0x17c754;return _0x2abaea(0xb8)+_0x448f5a+'='+_0x17c754;})['concat'](_0x7915a8[_0xbcfac2(0xb2)])[_0xbcfac2(0xb3)](Boolean);}function _0x3cc4(_0x2ac581,_0x195158){const _0x9f5f3c=_0x9f5f();return _0x3cc4=function(_0x3cc4bc,_0x4140db){_0x3cc4bc=_0x3cc4bc-0x80;let _0x129302=_0x9f5f3c[_0x3cc4bc];return _0x129302;},_0x3cc4(_0x2ac581,_0x195158);}const authorname=_0x3b90f3(0xd5),packname=_0x3b90f3(0xc6),chyt=_0x3b90f3(0xea),nit=_0x3b90f3(0xea),supre='5511964752915@s.whatsapp.net',usedCommandRecently=new Set(),isFiltered=_0x218b0c=>!!usedCommandRecently[_0x3b90f3(0xc4)](_0x218b0c),addFilter=_0x329133=>{const _0x876fdc=_0x3b90f3;usedCommandRecently[_0x876fdc(0xba)](_0x329133),setTimeout(()=>usedCommandRecently[_0x876fdc(0xa9)](_0x329133),0x1388);};module[_0x3b90f3(0x83)]={'getBuffer':getBuffer,'fetchJson':fetchJson,'fetchText':fetchText,'generateMessageID':generateMessageID,'getGroupAdmins':getGroupAdmins,'getMembros':getMembros,'getRandom':getRandom,'banner2':banner2,'temporizador':temporizador,'color':color,'recognize':recognize,'bgcolor':bgcolor,'isFiltered':isFiltered,'addFilter':addFilter,'banner3':banner3,'chyt':chyt,'getExtension':getExtension,'convertSticker':convertSticker,'upload':upload,'nit':nit,'getpc':getpc,'supre':supre};
+const fetch = require('node-fetch');
+const fs = require('fs');
+const axios = require('axios');
+const cfonts = require('cfonts');
+const Crypto = require('crypto');
+const chalk = require('chalk');
+const exec = require("child_process").exec;
+const log = console.debug;
+const mimetype = require('mime-types');
+const cheerio = require('cheerio');
+const { spawn } = require("child_process");
+const ff = require('fluent-ffmpeg');
+const { JSDOM } = require('jsdom');
+const FormData = require('form-data');
+const qs = require('qs');
+const { fromBuffer } = require('file-type');
+const toMs = require('ms');
+const request = require('request');
+const ffmpeg = require('fluent-ffmpeg');
+const moment = require('moment-timezone');
+
+var corzinhas = ["red", "green", "yellow", "blue","magenta", "cyan", "", "gray", "redBright","greenBright", "yellowBright", "blueBright", "magentaBright", "cyanBright", "whiteBright"];
+const cor1 = corzinhas[Math.floor(Math.random() * (corzinhas.length))];	
+const cor2 = corzinhas[Math.floor(Math.random() * (corzinhas.length))];	
+const cor3 = corzinhas[Math.floor(Math.random() * (corzinhas.length))];
+const cor4 = corzinhas[Math.floor(Math.random() * (corzinhas.length))];	
+const cor5 = corzinhas[Math.floor(Math.random() * (corzinhas.length))];
+
+const ceemde = JSON.parse(fs.readFileSync('./yoko/bunker/database/data/totalcmd.json'));
+
+const getpc = async function(totalchat){
+pc = [];
+a = [];
+b = [];
+for (var c of totalchat){
+a.push(c.id);
+}
+for (var d of a){
+if (d && !d.includes('g.us')){
+b.push(d);
+}
+}
+return b;
+};
+
+function upload (midia) {
+return new Promise(async (resolve, reject) => {
+try {
+let { ext } = await fromBuffer(midia);
+let form = new FormData();
+form.append('file', midia, 'tmp.' + ext);
+await fetch('https://telegra.ph/upload', {
+method: 'POST',
+body: form
+})
+.then(html => html.json())
+.then(post => {
+resolve('https://telegra.ph' + post[0].src);
+})
+.catch(erro => reject(erro));
+} catch (erro) {
+return console.log(erro);
+}
+});
+}
+
+function convertSticker(base64, author, pack){
+ return new Promise((resolve, reject) =>{
+axios('https://sticker-api-tpe3wet7da-uc.a.run.app/prepareWebp', {
+method: 'POST',
+headers: {
+Accept: 'application/json, text/plain, */*',
+'Content-Type': 'application/json;charset=utf-8',
+'User-Agent': 'axios/0.21.1',
+'Content-Length': 151330
+},
+data: `{"image": "${base64}","stickerMetadata":{"author":"${author}","pack":"${pack}","keepScale":true,"removebg":"HQ"},"sessionInfo":{"WA_VERSION":"2.2106.5","PAGE_UA":"WhatsApp/2.2037.6 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36","WA_AUTOMATE_VERSION":"3.6.10 UPDATE AVAILABLE: 3.6.11","BROWSER_VERSION":"HeadlessChrome/88.0.4324.190","OS":"Windows Server 2016","START_TS":1614310326309,"NUM":"6247","LAUNCH_TIME_MS":7934,"PHONE_VERSION":"2.20.205.16"},"config":{"sessionId":"session","headless":true,"qrTimeout":20,"authTimeout":0,"cacheEnabled":false,"useChrome":true,"killProcessOnBrowserClose":true,"throwErrorOnTosBlock":false,"chromiumArgs":["--no-sandbox","--disable-setuid-sandbox","--aggressive-cache-discard","--disable-cache","--disable-application-cache","--disable-offline-load-stale-cache","--disk-cache-size=0"],"executablePath":"C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe","skipBrokenMethodsCheck":true,"stickerServerEndpoint":true}}`
+}).then(({data}) => {
+resolve(data.webpBase64);
+}).catch(reject);
+});
+}
+
+exports.fetchJson = fetchJson = (url, options) => new Promise(async (resolve, reject) => {
+fetch(url, options).then(response => response.json())
+ .then(json => {
+//console.log(json)
+resolve(json)
+}).catch((err) => {
+reject(err)
+})
+})
+
+exports.fetchText = fetchText = (url, options) => new Promise(async (resolve, reject) => {
+fetch(url, options).then(response => response.text()).then(text => {
+// console.log(text)
+resolve(text)
+}).catch((err) => {
+reject(err)
+})
+})
+
+exports.createExif = (pack, auth) =>{
+const code = [0x00,0x00,0x16,0x00,0x00,0x00]
+const exif = {"sticker-pack-id": "com.client.tech", "sticker-pack-name": pack, "sticker-pack-publisher": auth, "android-app-store-link": "https://play.google.com/store/apps/details?id=com.termux", "ios-app-store-link": "https://itunes.apple.com/app/sticker-maker-studio/id1443326857"}
+let len = JSON.stringify(exif).length
+if (len > 256) {
+len = len - 256
+code.unshift(0x01)
+} else {
+code.unshift(0x00)
+}
+if(len < 16) {
+len = len.toString(16)
+len = "0" + len
+} else {
+len = len.toString(16)
+}
+const _ = Buffer.from([0x49, 0x49, 0x2A, 0x00, 0x08, 0x00, 0x00, 0x00, 0x01, 0x00, 0x41, 0x57, 0x07, 0x00]);
+const __ = Buffer.from(len, "hex")
+const ___ = Buffer.from(code)
+const ____ = Buffer.from(JSON.stringify(exif))
+fs.writeFileSync('./yoko/bunker//sticker/data.exif', Buffer.concat([_, __, ___, ____]), function (err) {
+console.log(err)
+if (err) return console.error(err)
+return `./arquivos/sticker/data.exif`
+})
+}
+
+/*exports.getBuffer = getBuffer = async (url) => {
+const res = await fetch(url, {headers: { 'User-Agent': 'okhttp/4.5.0'}, method: 'GET' })
+const anu = fs.readFileSync('./src/emror.jpg')
+if (!res.ok) return { type: 'image/jpeg', result: anu }
+const buff = await res.buffer()
+if(buff)
+return { type: res.headers.get('content-type'), result: buff }
+}*/
+
+const getBuffer = async (url, opcoes) => {
+try {
+opcoes ? opcoes : {}
+const post = await axios({
+method: "get",
+url,
+headers: {
+'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36', 
+	'DNT': 1,
+	'Upgrade-Insecure-Request': 1
+},
+...opcoes,
+responseType: 'arraybuffer'
+})
+return post.data
+} catch (erro) {
+console.log(`Erro identificado: ${erro}`)
+}
+}
+
+const randomBytes = (length) => {
+return Crypto.randomBytes(length);
+};
+
+const generateMessageID = () => {
+return randomBytes(10).toString('hex').toUpperCase();
+};
+
+const getExtension = async (type) => {
+return await mimetype.extension(type)
+}
+
+const getGroupAdmins = (participants) => {
+admins = []
+for (let i of participants) {
+if(i.admin == 'admin') admins.push(i.id)
+if(i.admin == 'superadmin') admins.push(i.id)
+}
+return admins
+}
+
+const getMembros = (participants) => {
+admins = []
+for (let i of participants) {
+if(i.admin == null) admins.push(i.id)
+}
+return admins
+}
+
+const getRandom = (ext) => {
+return `${Math.floor(Math.random() * 10000)}${ext}`;
+};
+
+const banner2 = cfonts.render((`YOKO V6 BY FANTASMA MODS`), {
+font: 'console',
+align: 'center',
+colors: [`red`,`${cor3}`,`${cor4}`,`${cor2}`],
+background: 'transparent',  
+});
+ 
+const banner3 = cfonts.render((`YOKO BOT V6`), {
+  font: 'block',
+  align: "center",
+  colors: [`red`,`${cor3}`,`${cor4}`,`${cor2}`],
+background: 'transparent',  
+letterSpacing: 1,           
+lineHeight: 1,            
+space: true,               
+maxLength: '0',            
+gradrient: [`${cor4}`,`${cor2}`],     
+independentGradient: false, 
+transitionGradient: false, 
+env: 'node'
+});
+ 
+
+function temporizador(segundos){
+function tempo(s){
+return (s < 10 ? '0' : '') + s;
+}
+var horas = Math.floor(segundos / (60*60));
+var minutos = Math.floor(segundos % (60*60) / 60);
+var segundos = Math.floor(segundos % 60);
+return `${tempo(horas)}:${tempo(minutos)}:${tempo(segundos)}`;
+}
+
+const color = (text, color) => {
+return !color ? chalk.green(text) : chalk.keyword(color)(text)
+}
+
+const bgcolor = (text, bgcolor) => {
+return !bgcolor ? chalk.green(text) : chalk.bgKeyword(bgcolor)(text)
+}
+
+function recognize(filename, config = {}) {
+const options = getOptions(config)
+const binary = config.binary || "tesseract"
+const command = [binary, `"${filename}"`, "stdout", ...options].join(" ")
+if (config.debug) log("command", command)
+return new Promise((resolve, reject) => {
+exec(command, (error, stdout, stderr) => {
+if(config.debug) log(stderr)
+if(error) reject(error)
+resolve(stdout)
+})
+})
+}
+
+function getOptions(config) {
+const ocrOptions = ["tessdata-dir", "user-words", "user-patterns", "psm", "oem", "dpi"]
+return Object.entries(config).map(([key, value]) => {
+if (["debug", "presets", "binary"].includes(key)) return
+if (key === "lang") return `-l ${value}`
+if (ocrOptions.includes(key)) return `--${key} ${value}`
+return `-c ${key}=${value}`
+}).concat(config.presets).filter(Boolean)
+}
+
+const authorname = "YOKO BOT"
+const packname = "Criador: Fantasmamods Oficial"
+
+const chyt = "5511964752915@s.whatsapp.net";
+const nit = "5511964752915@s.whatsapp.net";
+const supre = "5511964752915@s.whatsapp.net";
+
+const usedCommandRecently = new Set()
+const isFiltered = (from) => !!usedCommandRecently.has(from)
+const addFilter = (from) => {
+usedCommandRecently.add(from)
+setTimeout(() => usedCommandRecently.delete(from), 5000)}
+
+module.exports = { getBuffer, fetchJson, fetchText, generateMessageID, getGroupAdmins, getMembros, getRandom, banner2, temporizador, color, recognize, bgcolor, isFiltered, addFilter, banner3, chyt, getExtension, convertSticker, upload, nit, getpc, supre }

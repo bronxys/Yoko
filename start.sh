@@ -29,7 +29,7 @@ echo "Escolha uma opção:"
 echo_color "red" "1. Conectar via QR Code"
 echo_color "red" "2. Conectar via código"
 echo_color "red" "3. Instalar dependencias"
-echo_color "red" "4. Abrir canal do youtube"
+echo_color "red" "4. Abrir whatsapp suporte"
 read -p "Digite o número da opção:" opcao
 
 
@@ -37,12 +37,12 @@ read -p "Digite o número da opção:" opcao
 
 case $opcao in
     1)
-        echo_color "red" "Ayanokoji V1 Md - Auto reconexão ativada via Qr-code..."
+        echo_color "red" "Yoko bot v6 - Auto reconexão ativada via Qr-code..."
         loading_effect
         node yoko-conection.js
         ;;
     2)
-        echo_color "red" "Ayanokoji V1 Md - Auto reconexão ativada via Codigo..."
+        echo_color "red" "Yoko bot v6 - Auto reconexão ativada via Codigo..."
         loading_effect
         node yoko-conection.js sim
         ;;
@@ -61,7 +61,7 @@ case $opcao in
     4)
         echo_color "red" "Abrindo canal no YouTube...\n\n"
         # Substitua a URL abaixo pelo link do canal do YouTube desejado
-        xdg-open "https://youtube.com/@yurimodz?si=JBtdPLtf4_J0e03K" 2>/dev/null
+        xdg-open "wa.me/5511964752915" 2>/dev/null
         ;;
     *)
         echo_color "red" "Opção inválida! Por favor, tente novamente."
