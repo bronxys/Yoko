@@ -15,11 +15,11 @@ async function criarPagamentoPix(valorCompra, descricao, idempotencyKey) {
         payment_method_id: "pix",
         payer: {
             email: "pedrocarvalhoblest@gmail.com",
-            first_name: "seu nome que e do banco ",
-            last_name: "nome aqui do seu banco",
+            first_name: "marileide Barbosa do Nascimento",
+            last_name: "marileide",
             identification: {
                 type: "CPF",
-                number: "seu cpf aqui"
+                number: "34608023837"
             }
         }
     };
