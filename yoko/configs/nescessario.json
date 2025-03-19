@@ -3,10 +3,10 @@
   "antipv2": false,
   "antipv3": false,
   "menu_audio": false,
-  "verificado": false,
+  "verificado": true,
   "anticall": false,
   "modo_aluguel": false,
-  "visualizarmsg": true,
+  "visualizarmsg": false,
   "botoes": true,
   "listanegraG": [],
   "listabrancaG": [],
@@ -38,6 +38,6 @@
   "numero_dono4": ".",
   "numero_dono5": ".",
   "numero_dono6": ".",
-  "botoff": false,
+  "botoff": true,
   "Odelete": false
 }

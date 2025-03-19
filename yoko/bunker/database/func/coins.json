@@ -301,28 +301,5 @@
         }
       }
     ]
-  },
-  {
-    "grupo": "120363412130599338@g.us",
-    "usus": [
-      {
-        "id": "5511964752915@s.whatsapp.net",
-        "coins": 35,
-        "data": "07/03/2025",
-        "chances": {
-          "cassino": 0,
-          "minerar": 0
-        }
-      },
-      {
-        "id": "5512978986457@s.whatsapp.net",
-        "coins": 0,
-        "data": 0,
-        "chances": {
-          "cassino": 0,
-          "minerar": 0
-        }
-      }
-    ]
   }
 ]

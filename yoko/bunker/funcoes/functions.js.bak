@@ -26,7 +26,7 @@ const cor3 = corzinhas[Math.floor(Math.random() * (corzinhas.length))];
 const cor4 = corzinhas[Math.floor(Math.random() * (corzinhas.length))];	
 const cor5 = corzinhas[Math.floor(Math.random() * (corzinhas.length))];
 
-const ceemde = JSON.parse(fs.readFileSync('./yoko/bunker/database/data/totalcmd.json'));
+const ceemde = JSON.parse(fs.readFileSync('./aya/bunker/database/data/totalcmd.json'));
 
 const getpc = async function(totalchat){
 pc = [];
@@ -120,7 +120,7 @@ const _ = Buffer.from([0x49, 0x49, 0x2A, 0x00, 0x08, 0x00, 0x00, 0x00, 0x01, 0x0
 const __ = Buffer.from(len, "hex")
 const ___ = Buffer.from(code)
 const ____ = Buffer.from(JSON.stringify(exif))
-fs.writeFileSync('./yoko/bunker//sticker/data.exif', Buffer.concat([_, __, ___, ____]), function (err) {
+fs.writeFileSync('./aya/bunker//sticker/data.exif', Buffer.concat([_, __, ___, ____]), function (err) {
 console.log(err)
 if (err) return console.error(err)
 return `./arquivos/sticker/data.exif`

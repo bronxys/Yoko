@@ -37,12 +37,12 @@ read -p "Digite o número da opção:" opcao
 
 case $opcao in
     1)
-        echo_color "red" "Ayanokoji V1 Md - Auto reconexão ativada via Qr-code..."
+        echo_color "red" "yoko bot - Auto reconexão ativada via Qr-code..."
         loading_effect
         node yoko-conection.js
         ;;
     2)
-        echo_color "red" "Ayanokoji V1 Md - Auto reconexão ativada via Codigo..."
+        echo_color "red" "yoko bot - Auto reconexão ativada via Codigo..."
         loading_effect
         node yoko-conection.js sim
         ;;
