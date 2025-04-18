@@ -1,0 +1,36 @@
+[
+  {
+    "groupId": "120363281595375393@g.us",
+    "mensagens": [
+      {
+        "msg": "Gabriel é foda",
+        "img": "https://telegra.ph/file/4c3026f5c1190122dd59d.jpg",
+        "contador": 1,
+        "total": 2,
+        "tipo": 2,
+        "save": "26",
+        "midi": 0
+      },
+      {
+        "msg": "Gabriel é foda",
+        "img": "https://telegra.ph/file/fb954590c67f10f85a0dc.jpg",
+        "contador": 1,
+        "total": 1,
+        "tipo": 2,
+        "save": "26",
+        "midi": 0
+      }
+    ],
+    "module": false
+  },
+  {
+    "groupId": "120363268969810684@g.us",
+    "mensagens": [],
+    "module": true
+  },
+  {
+    "groupId": "120363078802666393@g.us",
+    "mensagens": [],
+    "module": false
+  }
+]
