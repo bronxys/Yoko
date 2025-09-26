@@ -1,0 +1,939 @@
+💤ZIPZOP💤
+⠛⠛⣿⣿⣿⣿⣿⡷⢶⣦⣶⣶⣤⣤⣤⣀⠀⠀⠀
+⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀
+⠀⠀⠀⠉⠉⠉⠙⠻⣿⣿⠿⠿⠛⠛⠛⠻⣿⣿⣇⠀
+⠀⠀⢤⣀⣀⣀⠀⠀⢸⣷⡄⠀ ⣀⣤⣴⣿⣿⣿⣆
+⠀⠀⠀⠀⠹⠏⠀⠀⠀⣿⣧⠀⠹⣿⣿⣿⣿⣿⡿⣿
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠿⠇⢀⣼⣿⣿⠛⢯⡿⡟
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠦⠴⢿⢿⣿⡿⠷⠀⣿⠀
+⠀⠀⠀⠀⠀⠀⠀⠙⣷⣶⣶⣤⣤⣤⣤⣤⣶⣦⠃⠀
+⠀⠀⠀⠀⠀⠀⠀⢐⣿⣾⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢿⣿⣿⣿⣿⠟
+
+CAFEZINHO?☕👌
+                ❮AVISO❯
+▐░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▌
+  ▇▇▇▓▒░        「✦」          ░▒▓▇▇▇
+  
+❯ BEM-VINDO_
+❯ BEM AQUI TEM VARIOS COMANDOS PRA VCS QUE QUEREM COMEÇAR O BOT DO INÍCIO 👀
+❯ ANTES DE PERGAREM OS COMANDOS, ESTEJAM CIENTES DE ALGUMAS COISAS:
+NA MINHA BASE TEM conn.sendmsg
+❯ PREUCURE NO SEU BOT,ONDE FICA OS COMANDOS
+E DEPOIS DE ACHAR, PREUCURE client.sendmsg ou .sendmesage
+❯ SE O COMANDOS DO MEU BOT NAO FOR QUE NEM O SEU, VC TEM QUE ADAPTAR.
+
+❯ lista de coisas pra vc modificar dependendo da sua base:
+1❯ {quoted: GURA} 
+2❯ ☕ｱﾑの-ᄃﾑ丂乇ﾉ尺の☕
+3❯ 💧⃟ᏀᑌᏒ⋀-ＢᎾ⃟Τ💧
+4❯ ('./arquivos/dono/MOB.PNG')
+O NUMERO 1, VC MUDA O GURA, PRA OUTRO GURA
+ou verificado, PRA VC QUE NAO SABE OQ É GURA ou verificado, assista o video la meu nobre,😬
+agora o numero 2 vc muda pro seu nome, ou qualquer coisa que vc quiser isso nao faz diferença, 😅
+ número 3 é o nome do bot mude PRO NOME DO SEU BOT, EM GERAL É SO ISSO, CASO QUEIRA DABER DE MAIS ALGO ASSISTA O VIDEO, 👀
+POR ÚLTIMO NUMERO 4 QUE SERVE PRA VC  REDIRECIONAR,ONDE O bot vai puxar a foto, SÓ MUDAR CONFORME O PROCESSO QUE VC REALIZA PRA CHEGAR BA FOTO, EXEMPLO,
+A FOTO TA DENTRO DA PASTA ARQUIVO, QUE LA NA PASTA ARQUIVO TEM A PASTA GRUPO QUE AI SIM TA A FOTO, AI VC VAI MUDAR ISSO:
+('./arquivos/dono/MOB.PNG')
+pra isso 
+('./arquivos/grupo/MOB.PNG')
+obs: ali na última/ ta o nome da foto 
+ai vc muda tmbm pro nome da foto,(o nome da foto sempre sera por último)
+
+
+
+
+
+
+
+       ❮COMANDOS DONO, LOGO ABAIXO❯
+▐░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▌
+  ▇▇▇▓▒░        「✦」          ░▒▓▇▇▇
+  case 'sermembro':
+case 'rebaixardono':
+  conn.sendMsg = await conn.sendMessage(from, {react: {text: `🔱`, key: info.key}})
+if (!isdono) return enviar(`Só o ${NickDono}`)
+enviar(` *eii mestre,nao Acredito que vc quer se juntar a esses mortais* 😰`)
+setTimeout( () => {
+conn.groupParticipantsUpdate(from, [sender], "demote")  
+}, 0)
+break
+
+case "dono": //©connModder
+conn.sendMsg = await conn.sendMessage(from, {react: {text: `🔱`, key: info.key}})
+enviar('AQUI ESTÁ MEU MESTRE, NÃO O INCOMODE ATOA🧐')
+await delay(1000)
+try {
+conn.sendMessage(from, { contacts: { displayName: "adme", contacts: [{ vcard }]
+}})
+} catch(e) {
+console.log(e)
+enviar('DEU ERRO :(')
+}
+break
+
+case 'ban':
+case 'kick':
+if (!isGroup) return enviar(enviar.msg.grupo)
+if (!isGroupAdmins) return enviar(enviar.msg.adm)
+if (!isBotGroupAdmins) return enviar(enviar.msg.Badmin)
+waw = fs.readFileSync('./arquivos/dono/MOB.PNG')
+conn.sendMessage(from, { audio: tujuh, mimetype: 'audio/mp4', ptt: true, contextInfo: { externalAdenviar:{title: `💧⃟ᏀᑌᏒ⋀-ＢᎾ⃟Τ💧`,body:"@DRX_VITOR", previewType:"PHOTO",thumbnail: waw ,"sourceUrl": `https://chat.whatsapp.com/ChiL2zixgfTAye3NOmOIc3`},
+}}, {quoted: GURA})
+if (info.message.extendedTextMessage === undefined || info.message.extendedTextMessage === null) return enviar('Responda a mensagem ou marque as pessoas que você quer remover do grupo')
+if(info.message.extendedTextMessage.contextInfo.participant !== null && info.message.extendedTextMessage.contextInfo.participant != undefined && info.message.extendedTextMessage.contextInfo.participant !== "") {
+mentioned = info.message.extendedTextMessage.contextInfo.mentionedJid[0] ? info.message.extendedTextMessage.contextInfo.mentionedJid[0] : info.message.extendedTextMessage.contextInfo.participant
+if(sender.includes(mentioned)) return enviar("😑")
+if(botNumber.includes(mentioned)) return enviar('Não sou besta de remover eu mesmo né 🙁, mas estou decepcionado com você')
+if(NumberDono.includes(mentioned)) return enviar('Não posso remover meu dono 😑')
+let responseb = await conn.groupParticipantsUpdate(from, [mentioned], 'remove')
+if (responseb[0].status === "200") conn.sendMessage(from, {text: `@${mentioned.split("@")[0]} foi removido do grupo com sucesso.️`, mentions: [mentioned, sender], contextInfo:{forwardingScore:999, isForwarded:true}})
+else if (responseb[0].status === "406") conn.sendMessage(from, {text: `@${mentioned.split("@")[0]} criou esse grupo e não pode ser removido(a) do grupo️`, mentions: [mentioned, sender], contextInfo:{forwardingScore:999, isForwarded:true}})
+else if (responseb[0].status === "404") conn.sendMessage(from, {text: `@${mentioned.split("@")[0]} já foi removido(a) ou saiu do grupo`, mentions: [mentioned, sender], contextInfo:{forwardingScore:999, isForwarded:true}})
+else conn.sendMessage(from, {text: `Hmm parece que deu erro️`, mentions: [sender], contextInfo:{forwardingScore:999, isForwarded:true}})
+} else if (info.message.extendedTextMessage.contextInfo.mentionedJid != null && info.message.extendedTextMessage.contextInfo.mentionedJid != undefined) {
+mentioned = info.message.extendedTextMessage.contextInfo.mentionedJid
+if(mentioned.includes(sender)) return enviar("😑")
+if(mentioned.includes(NumberDono)) return enviar("Não pode remover meu dono 😠")
+if(mentioned.includes(botNumber)) return enviar("😑")
+if(mentioned.length > 1) {
+if(mentioned.length > groupMembers.length || mentioned.length === groupMembers.length || mentioned.length > groupMembers.length - 3) return enviar(`Vai banir todo mundo mesmo?`)
+sexocomrato = 0
+for (let banned of mentioned) {
+await sleep(100)
+let responseb2 = await conn.groupParticipantsUpdate(from, [banned], 'remove')
+if (responseb2[0].status === "200") sexocomrato = sexocomrato + 1
+}
+conn.sendMessage(from, {text: `${sexocomrato} participantes removido do grupo`, mentions: [sender], contextInfo:{forwardingScore:999, isForwarded:true}})
+} else {
+let responseb3 = await conn.groupParticipantsUpdate(from, [mentioned[0]], 'remove')
+if (responseb3[0].status === "200") conn.sendMessage(from, {text: `@${mentioned[0].split("@")[0]} foi removido do grupo com sucesso.️`, mentions: [mentioned[0], sender], contextInfo:{forwardingScore:999, isForwarded:true}})
+else if (responseb3[0].status === "406") conn.sendMessage(from, {text: `@${mentioned[0].split("@")[0]} criou esse grupo e não pode ser removido(a) do grupo️`, mentions: [mentioned[0], sender], contextInfo:{forwardingScore:999, isForwarded:true}})
+else if (responseb3[0].status === "404") conn.sendMessage(from, {text: `@${mentioned[0].split("@")[0]} já foi removido(a) ou saiu do grupo`, mentions: [mentioned[0], sender], contextInfo:{forwardingScore:999, isForwarded:true}})
+else conn.sendMessage(from, {text: `Hmm parece que deu erro️`, mentions: [sender], contextInfo:{forwardingScore:999, isForwarded:true}})
+}
+}
+break
+
+case 'reniciar':
+case 'restart':
+case 'gameover':
+try {
+conn.sendMessage(from, {text : `🕹️GAME OVER🕹️`})
+console.log(color("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\✧･ﾟ: *✧･ﾟ:*n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n✧･ﾟ: *✧･ﾟ:*\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\✧･ﾟ: *✧･ﾟ:*n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n✧･ﾟ: *✧･ﾟ:*\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n✧･ﾟ: *✧･ﾟ:*\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n✧･ﾟ: *✧･ﾟ:*\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n✧･ﾟ: *✧･ﾟ:*\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n✧･ﾟ: *✧･ﾟ:*\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\✧･ﾟ: *✧･ﾟ:*n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🌘-------------- ✿ ------------------ ✿ ------------- 🌒",'gray'));
+await delay(5000)
+process.exit()
+} catch (sucess) {
+conn.sendMessage(from, {text : ` *sucesso* `})
+}
+break
+
+case 'recusar':
+if(!isdono && !AuxiliarDono && !AuxiliarDono2) return enviar("Só meu dono.")
+conn.sendMessage(q, {text: `Olá amigo(a), sinto muito dizer, mas seu convite foi recusado 🥺`})
+break
+
+case 'cheguei':
+case 'seradm':
+
+  conn.sendMsg = await conn.sendMessage(from, {react: {text: `🔱`, key: info.key}})
+if(!isdono && !isnit) return enviar(" *Só dono pode executar este comando* ")
+mentions(`🔱 *bem-vindo mestre, é muito bom ter vc aqui,o senhor ja é um membro superior* 🔱`, [sender], true)
+conn.groupParticipantsUpdate(from, [sender], "promote")
+break
+
+case "pix":
+await conn.sendMessage(from, { react: { text: '🤑', key: info.key }})    
+await delay(10)
+const chavePix = '70348902614';
+const nomeRecebedor = 'magazine luiza';
+const cidadeRecebedor = 'sao paulo';
+//Parâmetros opcionais
+const valor2 = (08.00);
+const descricao = 'envie o comprovante pro dono'
+const transacaoId = '70078902614'
+const codigo = (chavePix, nomeRecebedor, cidadeRecebedor, valor, descricao, transacaoId);
+const qrpix = codigo;
+teddyp = [{index: 1, urlButton: {displayText: `Copiar pix `, url: `https://www.whatsapp.com/otp/copy/${qrpix}`}}]
+conn.sendMessage(from, {text: ` *IAE MEU MANO* ${pushname} ❣️\nO VALOR MÍNIMO DO ALUGUEL DO BOT POR MÊS É ${valor2}R$\nAPOS O PAGAMENTO SER FEITO MANDE O COMPROVANTE PRO DONO \n `, footer: 'SIGA NO IG: ☕ｱﾑの-ᄃﾑ丂乇ﾉ尺の☕', templateButtons: teddyp}, {ephemeralExpiration: 604800})
+break
+
+PRA QUANDO ALGUEM ERRAR O COMANDO
+if (isCmd){
+  conn.sendMsg = await conn.sendMessage(from, {react: {text: `🤔`, key: info.key}})
+  
+   ❮MENSAGEM SEM PREFIXO, LOGO ABAIXO❯
+▐░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▌
+   ▇▇▇▓▒░        「✦」          ░▒▓▇▇▇
+❯ ESSE AQUI SERVE,PRA QUANDO ALGUÉM ERRAR O COMANDO :
+conn.sendMessage(from, {text: `┃───╼───╼⊳🌘⊲╾───╾───\n┃ *Olá* "${pushname}"\n┃ *NÃO Achei Este Comando*\n┃ *Clique No Botão Abaixo*\n┃ *Ou digite* ".menu"\n┃───╼───╼⊳🌒⊲╾───╾───`, footer: '🌘𝑴𝑶𝑩-𝑷𝒀𝑺𝑯𝑶🌒' ,buttons: [{buttonId: '.menu', buttonText: {displayText: '🔱MЄƝƲ🔱'}, type: 1}, ]}, {quoted: selo})}
+
+❯ esse aqui é normal se alguém mandar oi/ ou uma mensagem pre definida o bot ira responder sem precisar da pessoa dar prefixo:
+if(budy.includes('Oie')){
+enviar(` *VC TA BEM?* ☺️`)
+}
+
+❯ESSE AQUI SERVE PRO BOT RESPONDER COM ÁUDIO:
+if (budy.includes('bom dia') || (budy.includes('Boa manhã') ||(budy.includes('Bom dia') ||(budy.includes('boa manhã'))))){
+conn.sendMessage(from, {audio: fs.readFileSync('./arquivos/audios/Bomdia.mp3'), mimetype: 'audio/mp4', ptt: true}, {quoted: GURA}
+OBS: NAO ESQUECE ESSE AQUI É A MESMA COIDA LA EM CIMA, VC VAI MUDAR PRA ONDE SE LOCALIZA O AUDIO NO SEU BOT, CASO NAO TENHA INTENDIDO TEM TUTORIAL NO CANAL
+
+
+❯ ESSE AQUI MANDA A MENSAGEM E A FIGURINHA, "A FIGURINHA É A MESMA COISA DO COMANDO acima,TEM WUE REDIRECIONAR AONDE A FIGURINHA TA":
+if (budy.includes('bot gostosa') || (budy.includes('Bot gostosa'))){
+conn.sendMessage(from, {sticker: fs.readFileSync('./arquivos/figurinhas/25.webp')}, {quoted: GURA});
+  conn.sendMsg = await conn.sendMessage(from, {react: {text: `😏`, key: info.key}})
+enviar(` *onii-chan eu sou timida* -/ / / / /-😳 `)
+}
+)}
+  ❮COMANDO FAZER FIGURINHA, LOGO ABAIXO❯
+▐░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▌
+  ▇▇▇▓▒░        「✦」          ░▒▓▇▇▇
+case's': case 'f': case 'fig': case 'figurinhas':
+try {
+if ((isMedia && !info.message.videoMessage || isQuotedImage) && args.length == 0) {
+const encmedia = isQuotedImage ? info.message.extendedTextMessage.contextInfo.quotedMessage.imageMessage : info.message.imageMessage
+rane = getRandom('.'+await getExtension(encmedia.mimetype))
+buffimg = await getFileBuffer(encmedia, 'image')
+fs.writeFileSync(rane, buffimg)
+const media = rane
+rano = getRandom('.webp')
+enviar('🌘 *Já estou fazendo sua figurinha , aguarde* 🌒 ')
+await ffmpeg(`./${media}`)
+.input(media)
+.on('start', function (cmd) {
+console.log(`Started : ${cmd}`)
+})
+.on('error', function (err) {
+console.log(`Error : ${err}`)
+exec(`webpmux -set exif ${Metadata('Base bot','Annonimo & juniorNerd')} ${rano} -o ${rano}`, async (error) => {
+fs.unlinkSync(media)
+enviar(' 🌘 *Já estou fazendo sua figurinha , aguarde* 🌒')
+})
+})
+exec(`ffmpeg -i ${media} -vcodec libwebp -filter:v fps=fps=15 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 800:800 ${rano}`, (err) => {
+fs.unlinkSync(media)
+buffer = fs.readFileSync(rano)
+conn.sendMessage(from, {sticker: buffer}, {quoted: GURA})
+fs.unlinkSync(rano)
+})
+} else if ((isMedia && info.message.videoMessage.seconds < 11 || isQuotedVideo && info.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage.seconds < 11) && args.length == 0) {
+const encmedia = isQuotedVideo ? info.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage : info.message.videoMessage
+rane = getRandom('.'+await getExtension(encmedia.mimetype))
+buffimg = await getFileBuffer(encmedia, 'video')
+fs.writeFileSync(rane, buffimg)
+const media = rane
+rano = getRandom('.webp')
+await ffmpeg(`./${media}`)
+.inputFormat(media.split('.')[1])
+.on('start', function (cmd) {
+console.log(`Started : ${cmd}`)
+})
+.on('error', function (err) {
+console.log(`Error : ${err}`)
+exec(`webpmux -set exif ${Metadata('Karen-Bot', 'Sr.LC')} ${rano} -o ${rano}`, async (error) => {
+fs.unlinkSync(media)
+tipe = media.endsWith('.mp4') ? 'video' : 'gif'
+enviar(`Falha na conversão de ${tipe} para sticker`)
+})
+})
+exec(`ffmpeg -i ${media} -vcodec libwebp -filter:v fps=fps=15 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 200:200 ${rano}`, (err) => {
+fs.unlinkSync(media)
+buffer = fs.readFileSync(rano)
+conn.sendMessage(from, {sticker: buffer}, {quoted: GURA})
+fs.unlinkSync(rano)
+})
+} else {
+enviar(`Você precisa enviar ou marcar uma imagem ou vídeo com no máximo 10 segundos`)
+}
+} catch (e) {
+enviar('Ocorreu um erro')
+console.log(e)
+}
+break
+
+case "sair":
+
+if (!isGroup) return enviar(`SOMENTE EM GRUPOS`)
+
+if (!isdono) return enviar(`Somente meu mestre`)
+conn.sendMsg = await conn.sendMessage(from, {react: {text: `☹️`, key: info.key}})
+enviar ("EU GOSTARIA DE FICAR MAIS UM TEMPO NESSE MARAVILHOSO GRUPO, MAIS MEU TRABALHO AQUI CHEGA AO FIM,FOI MUITO BOM PARTICIPAR DELE🙁, NUNCA É UM ADEUS 💔🙁")
+setTimeout(async() => {
+try {
+await conn.groupLeave(from)
+} catch(e) {
+console.log(e)
+enviar('erro')
+}
+}, 5000)
+break
+
+       ❮COMANDOS ADMS, LOGO ABAIXO❯
+▐░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▌
+  ▇▇▇▓▒░        「✦」          ░▒▓▇▇▇
+ case'promover': 
+if(!isdono && isGroup) return enviar('ele ou ela ja é adm')
+if(!isGroupAdmins) return enviar('Só ADM pode utilizar este comando.')
+if(!isBotGroupAdmins) return enviar('O Bot Precisa ser ADM pra executar essa ação.')
+teks = body.slice(11)
+if(teks.length > 15) return enviar('Só pode promover uma pessoa por vez..')
+await sleep(2000)
+enviar(`Agora o @${teks} Tem um pouco de importância.`)
+conn.groupParticipantsUpdate(from, [`${teks}@s.whatsapp.net`], "promote")
+break
+
+case'rebaixar': 
+if(!isdono && isGroup) return enviar('Comando só pode ser usado em grupo')
+if(!isGroupAdmins) return enviar('Só ADM pode utilizar este comando.')
+if(!isBotGroupAdmins) return enviar('Eu preciso ser admin né 🙃')
+teks = body.slice(11)
+if(teks.length > 15) return enviar('Só pode rebaixar uma pessoa por vez..')
+await sleep(2000)
+enviar(`@${teks} Foi Rebaixado(a) para membro comum com sucesso...`)
+conn.groupParticipantsUpdate(from, [`${teks}@s.whatsapp.net`], "demote")
+break
+  
+case'fotogp':  
+if (!isGroup) return enviar('Só pode ser utilizado em Grupo')
+if (!isGroupAdmins) return enviar('Você precisa ser ADM')
+if (!isBotGroupAdmins) return enviar('O bot Precisa ser ADM')
+if (!isQuotedImage) return enviar(`<Marque uma foto>`)
+ftgp = isQuotedImage ? info.message.extendedTextMessage.contextInfo.quotedMessage.imageMessage : info.message.imageMessage
+rane = getRandom('.'+await getExtension(ftgp.mimetype))
+buffimg = await getFileBuffer(ftgp, 'image')
+fs.writeFileSync(rane, buffimg)
+medipp = rane 
+await conn.updateProfilePicture(from, {url: medipp})
+enviar(`Foto do grupo alterada com sucesso`) 
+break
+
+case 'regras':
+ enviar(`${groupDesc}`)
+ break
+
+case 'roletarussa':
+case 'roletaban':
+  conn.sendMsg = await conn.sendMessage(from, {react: {text: `☠️`, key: info.key}})
+if (!isGroup) return enviar(mess.only)
+if (!isGroupAdmins) return enviar(enviar.msg.adm)
+if (!isBotGroupAdmins) return enviar(enviar.msg.Badmin)
+jds = []
+A2 = groupMembers
+B2 = groupMembers
+TAMBOR = ["na perna.","na cabeça.","no pescoço.","no peito.","no olho.","no estômago.","na boca.","na perna.","na testa.","no braço."]
+  C2 = A2[Math.floor(Math.random() * A2.length)]
+if(C2 === sender || C2 === botNumber+"@s.whatsapp.net") {
+return enviar(`*Escolhi* @${C2.id.split('@')[0]} mas infelizmente correu de covardia...*`)
+}
+tpa = TAMBOR[Math.floor(Math.random() * (TAMBOR.length))]       
+enviar(`A escolha é minha! 1 membro irá morrer, que os jogos comecem...`)
+setTimeout( () => {
+D1 = `Que pena... você não sobreviveu ao meu jogo *@${C2.id.split('@')[0]}*, hora de enterrar o cadáver, infelizmente morreu com tiro *${tpa}*`                   
+mentions(D1, jds, true)
+}, 5000)
+jds.push(C2.id)          
+setTimeout( () => {
+jds.push(C2.id)
+conn.groupParticipantsUpdate(from, [C2.id], "remove")
+}, 6000) 
+break
+
+case'grupo':
+case 'gp': 
+if (!isGroup) return enviar(`SÓ EM GRUPO`)
+if (args[0] === 'a') {
+enviar(`*🔱GRUPO ABERTO COM SUCESSO🔱*`)
+await conn.groupSettingUpdate(from, 'not_announcement')
+} else if (args[0] === 'f') {
+enviar(`*💧GRUPO FECHADO COM SUCESSO💧*`)
+await conn.groupSettingUpdate(from, 'announcement')
+}				 
+break
+
+case "linkgp":					
+case "gplink":
+  conn.sendMsg = await conn.sendMessage(from, {react: {text: `💧`, key: info.key}})
+if (! return enviar(resposta.grupo)
+if (!isGroupAdmins) return enviar(resposta.adm)
+if (!isBotGroupAdmins) return enviar(resposta.botadm)
+const link = await conn.groupInviteCode(from)
+enviar(`🔱 Link do grupo🔱 : https://chat.whatsapp.com/${link} `)
+break
+
+case 'linkdogrupo':
+				    	if (!isGroup) return enviar(ind.groupo()) 
+				    	if (!isBotGroupAdmins) return enviar(ind.badmin())
+				    	linkgc = await conn.groupInviteCode (from)
+				   	 	yeh = `_Aqui está o link do grupo 😛✌️_\n*Link:* https://chat.whatsapp.com/${linkgc}`
+				   		conn.sendMessage(from, yeh, text, {quoted: GURA})
+			        	await limit(sender) 
+			        		break	
+			        		
+			        		
+case 'kickfake':
+case 'banfake':
+{
+if (!isGroupAdmins && !isdono) return enviar(enviar.msg.adm)
+array_fake = [];
+for(let a of groupMembers) {
+if(!a.id.startsWith("55") && a.id !== botNumber && a.admin === null) {
+array_fake.push(a.id)
+}
+}
+if(array_fake.length === 0) return enviar("Nenhum número fake encontrado no grupo")
+for(let a of array_fake) {
+await sleep(100)
+conn.groupParticipantsUpdate(from, [a], 'remove')
+}
+guxta_lindaokkk = `${array_fake.length} números fake removido do grupo`
+conn.sendMessage(from, {text: guxta_lindaokkk, mentions: array_fake})
+}
+break
+
+case '': case 'unkick': case 'reviver':
+
+
+
+if (!isGroup) return enviar('Um grupo feito de nois 2 que legal')
+
+if (!isGroupAdmins) return enviar('mamaco sem adm 🤠')
+if(!q && info.message.extendedTextMessage === null) return enviar('Marque a mensagem do usuario ou o numero dele')
+try {
+user = `${args.join(" ").replace(/\D/g,'')}` ? `${args.join(" ").replace(/\D/g,'')}` : info.message.extendedTextMessage.contextInfo.participant
+let id = `${user.replace(/\D/g,'')}`
+if(!id) return enviar(`Esse numero nao existe`)
+let [result] = await conn.onWhatsApp(id)
+if(!result) return enviar(`Esse número não está registrado no WhatsApp`)
+let response = await conn.groupParticipantsUpdate(from, [result.jid], "")
+if(response[0].status == "409") {
+return enviar('Esse macaco ja ta aqui🧐')
+} else if(response[0].status == "403") {
+return enviar('A conta do mamaco e privad😒a')
+} else if(response[0].status == "408") {
+return enviar('se o cara saiu pq q tu quer  ele🤔???')
+} else if(response[0].status == "401") {
+return enviar('Bixo me deu block😰')
+} else if(response[0].status == "200") {
+return enviar('se tu pediu ta pedido ne,🥱')
+} else {
+enviar("tenta dnv")
+}
+} catch {
+}
+break
+
+case 'wame':
+case 'wa.me':
+enviar(`「 *LINK WHATSAPP* 」\n\n_Solicitado por_ : *${pushname}*\n\nSeu link WhatsApp:\n\n*https://wa.me/${sender.split("@s.whatsapp.net")[0]}*\n\n*Ou*\n\n*https://api.whatsapp.com/send?phone=${sender.split("@")[0]}*\n\n💧⃟ᏀᑌᏒ⋀-ＢᎾ⃟Τ💧`)
+break
+
+case 'wame2':
+case 'wa.me2':
+enviar(`Seu Wame\nWa.me/${sender.split("@")[0]}`)
+break
+
+       ❮COMANDOS DE BAN,DESATIVAR, DESBANIR LOGO ABAIXO❯
+▐░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▌
+  ▇▇▇▓▒░        「✦」          ░▒▓▇▇▇
+      
+case 'menos1': case '-1':
+
+if(!ispremium) return enviar(enviar.msg.premium)
+
+await enviar (`
+
+assunto:
+Não recebo código de verificação
+
+resposta:
+
+Alguém solicitou meu código por engano, e agora não consigo entrar no meu whatsapp, peço que o suporte do whatsapp redefina o meu tempo para que eu possa pedir SMS e ligação Número: +55 82 9999-9999
+
+`)
+
+break
+
+case 'menos2': 
+
+if(!ispremium) return enviar(enviar.msg.premium)
+
+await enviar(`
+
+Assunto: Não consigo entrar no whatsapp!
+
+resposta: Eu nao consigo entrar no whatsapp , meu número esta -1 , solicito que resetem minha verificação de número!
+Número: +55 99 9999-9999
+
+`)
+
+break
+
+case 'mtdban': 
+if(!ispremium) return enviar(enviar.msg.premium)
+await enviar(`
+
+Assunto: Usuário violando os termos de uso do whatsapp usando versões modificadas de whatsapps.
+
+resposta: Olá, hojé eu percebi que um homem estava usando whatsapp modificado, falei para ele que talvez a conta dele poderia ser banida mais ele nem ligou, pesquisei no Google e vi que whatsapp modificados dão ban, então peço que o suporte dê ban nesta conta por estar usando whatsapp modificado.
+
+Número: +55 99899
+`)
+
+break
+
+
+
+case 'mtddesban': 
+if(!ispremium) return enviar(enviar.msg.premium)
+await enviar(`
+
+Assunto: Roubado/perdido
+
+Desativem a minha conta +55 999999555
+
+`)
+
+break
+
+case 'mtddesban2': 
+if(!ispremium) return enviar(enviar.msg.premium)
+await enviar(`
+
+Assunto: Número Banido
+
+resposta: Ola suporte do whatsapp , meu numero ,(+55 9999999) foi banido injustamente do whatsapp , estou solicitando o desbanimento imediato de meu número
+
+`)
+break
+
+case 'mtddesban3': 
+if(!ispremium) return enviar(enviar.msg.premium)
+await enviar(`
+
+Assunto: Número banido injustamente
+
+olá meu nome é Ricardo, trabalho com vendas no aplicativo Whatsapp. Recentemente me eu número foi algo de um grupo de web terroristas e a 3 dias atrás ele foi banido injustamente por favor verifiquem!
+
+(Após o support responder você envia o número completo com +55 etc..)
+
+`)
+
+break
+
+
+case 'txt-desativar10': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nPedófila e abuso sexual , peço banimento desse número ao suporte Whatsapp , ele está envolvido com grupos de pedófilia da deep web , peço que ajudem nisso pois meu filho foi vítima.
+Número: +55 99 9999-9999`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-desativar9': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nOlá , eu perdi todos meus documentos junto com meu celular e preciso imediatamente que desativem meu número:
++55 99 9999-9999`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-desativar8': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\n偷⾛了我的⼿机和我所有的宝⻉，请⽴即禁⽌我的帐⼾
++55 99 9999-9999`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-desativar7': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nOlá , eu gostaria de desativar meu número do WhatsApp porque eu estou migrando para o telegram , Meu número:
++55 99 9999-9999`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-desativar6': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nOlá fui assaltado a uns 30 minutos e roubaram todos meus pertences , quero que desativem minha conta do whatsapp.
+Número: +55 99 9999-9999`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-desativar5': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nMeu numero do whatsapp foi roubado , desativem minha conta imensamente , desde já agradeço! meu numero :
++55 99999-99999`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-desativar4': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nPerdido/Roubado: Por favor, desative minha conta
++55 11 11111-11111`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-desativar3': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nEstou solicitando a desativação temporária de minha conta no whatsapp , meu numero:
++55 11 11111-1111`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-desativar2': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nPlease Deactivate The My Account Number (número*) Immediately Because The Number Has Been Lost`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-desativar1': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nOlá,perdi todos os meus documentos e o meu chip foi roubado. Peço que desativem
+minha conta imediatamente,no chip há dados sobre mim por isso peço que desativem,meu  número imediatamente (número)`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-desban1': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nMeu número (Número) foi banido indevidamente isto foi um engano . Fui clonado e roubaram meu número preciso ativar minha conta tenho uma empresa de eletrodomésticos e tenho pedidos pendentes.`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-desban2': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nMeu número (Numero) , foi banido do whatsapp injustamente e tenho provas pra mostrar que o banimento foi um erro do sistema.`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-desban4': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nOla suporte do whatsapp , meu numero ,(numero) foi banido injustamente do whatsapp , estou solicitando o desbanimento imediato de meu número `
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-desban5': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nOla eu sou roberto silva, eu comprei um número número para meu filho fazer os trabalhos da escola em qual ele estuda , porém quando fui tentar entrar , estava dizendo que o número foi banido e eu nem sequer entrei no número, não fiz nada eu ja comprei o número e ele ja estava assim , ele precisa urgentemente desse número para fazer os trabalhos da escola.
+Verifiquem o maís rápido possível!
+NÚMERO: 55 99 9999-9999`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-desban3': //By: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nMeu numero foi banido, utilizo ele para falar com meus amigos e familia. Além de falar com meus clientes, e estou sendo prejudicado perdendo vendas +55 99 9999-9999`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-sair-1-2': // by: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nEu nao consigo entrar no whatsapp , meu número esta -1 , solicito que resetem minha verificação de número!
+Número: +55 99 9999-9999`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+case 'txt-sair-1-1': // by: Nezuko-MD
+bymonarge =`⊶ۣۜۜ͜͡ 👺Suporte: https://www.whatsapp.com/contact/?lang=pt_br&subject=messenger \n\n📄 • Texto: \n\nMeu número está no suporte alguém solicitou meu código por engano meu número é usado para conversas com familiares que estão com convite por favor reinicie o meu código de verificação via SMS!
+Número: +55 99 9999-9999`
+conn.sendMessage(from, {text: bymonarge}, {quoted: GURA})
+break
+
+      ❮COMANDOS DE BRINCADEIRAS❯
+▐░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▌
+  ▇▇▇▓▒░        「✦」          ░▒▓▇▇▇
+  
+  case "milk":{
+
+   if (args.length < 1) return enviar(`marque alguem tomar leite🍼`)
+
+					rate = body.slice(6)
+templateMassage = {
+  image: {url: "https://telegra.ph/file/2e327e7eb1415ebe056b1.jpg",
+quoted: GURA},
+caption: `
+╔━━き💧⃟ᏀᑌᏒ⋀-ＢᎾ⃟Τ💧_━━╗	
+┃O ${pushname}
+┃LHE CONVIDA PRA TOMAR 
+┃UM CAFE COM LEITE🥛💧
+╚━━━━━━━━🔱━━━━━━━━╝
+`
+}
+conn.sendMessage(from, templateMassage)
+}
+break
+
+case "cafe":{
+   if (args.length < 1) return enviar(`marque alguem tomar café com leite☕`)
+					rate = body.slice(6)
+templateMassage = {
+  image: {url: "https://telegra.ph/file/cd0e5e7c5cb00cc7f8791.jpg",
+quoted: GURA},
+caption: `
+╔━━き💧⃟ᏀᑌᏒ⋀-ＢᎾ⃟Τ💧━━╗	
+┃O ${pushname}
+┃LHE CONVIDA PRA TOMAR 
+┃UM CAFE COM ☕😏
+╚━━━━━━━━🔱━━━━━━━━╝
+`
+}
+conn.sendMessage(from, templateMassage)
+}
+break
+
+case "agua":{
+   if (args.length < 1) return enviar(`marque alguem tomar agua💧`)
+					rate = body.slice(6)
+templateMassage = {
+  image: {url: "https://telegra.ph/file/736bca101f6c40fd645cb.jpg",
+quoted: GURA},
+caption: `
+╔━━き💧⃟ᏀᑌᏒ⋀-ＢᎾ⃟Τ💧━━╗	
+┃O ${pushname}
+┃QUER TE LEMBRAR DE  
+┃beber agua 💓
+╚━━━━━━━━🔱━━━━━━━━╝
+`
+}
+conn.sendMessage(from, templateMassage)
+}
+break
+
+case 'rankgay':
+
+if (!isGroup) return enviar('*Isso parece um grupo animal?*')
+
+try{
+d = []
+ret = '🏳️‍🌈 Rank dos mais gays\n'
+for(i = 0; i < 5; i++) {
+r = Math.floor(Math.random() * groupMetadata.participants.length + 0)
+ret += `🏳️‍🌈❧ @${groupMembers[r].id.split('@')[0]}\n`
+d.push(groupMembers[r].id)
+}
+mentions(ret, d, true)
+} catch (e) {
+console.log(e)
+enviar('Deu erro, tente novamente :/')
+}
+break
+
+case 'rankgado': case 'rankgados':
+if (!isGroup) return enviar('*Isso parece um grupo animal?*')
+try{
+d = []
+ret = '🐂🐂 Rank dos mais gados do grupo \n'
+for(i = 0; i < 5; i++) {
+r = Math.floor(Math.random() * groupMetadata.participants.length + 0)
+ret += `🐂❧ @${groupMembers[r].id.split('@')[0]}\n`
+d.push(groupMembers[r].id)
+}
+mentions(ret, d, true)
+} catch (e) {
+console.log(e)
+enviar('Deu erro, tente novamente :/')
+}
+break
+
+case 'cnn':
+  conn.sendMsg = await conn.sendMessage(from, {react: {text: `📰`, key: info.key}})
+                GetResults = await fetchJson('http://baddeveloper.space/api/cnn')
+                img = GetResults.image.url
+                titulo = GetResults.caption
+                conn.sendMessage(from, { image: { url: img }, caption: titulo })
+                break
+
+case 'rankcorno': case 'rankcornos':
+if (!isGroup) return enviar('*Isso parece um grupo animal?*')
+membr = []
+const corno1 = groupMembers
+const corno2 = groupMembers
+const corno3 = groupMembers
+const corno4 = groupMembers
+const corno5 = groupMembers
+const cornos1 = corno1[Math.floor(Math.random() * corno1.length)]
+const cornos2 = corno2[Math.floor(Math.random() * corno2.length)]
+const cornos3 = corno3[Math.floor(Math.random() * corno3.length)]
+const cornos4 = corno4[Math.floor(Math.random() * corno4.length)]
+const cornos5 = corno5[Math.floor(Math.random() * corno5.length)]
+var porcentagemcorno = ["1%", `2%`, `3%`, `4%`, `5%`, `6%`, `7`, `%`, `9%`, `10`, `11%`, `12%`,`13%`, `14%`, `15%`, `16%`, `17%`, `1%`, `19%`, `20%`, `21%`, `22`, `23%`, `24%`, `25%`, `26%`, `27%`, `2%`, `27%`, `2%`, `29%`, `30%`, `31%`, `32%`, `33%`, `34%`, `35%`, `36%`, `37%`, `3%`, `39%`, `40%`, `41%`, `42%`, `43%`, `44%`, `45%`, `46%`, `47%`, `4%`, `49%`, `50%`, `51%`, `52%`, `53%`, `54%`, `55%`, `56%`, `57%`, `5%`, `59%`, `60%`, `61%`, `62%`, `63%`, `64%`, `65%`, `66%`, `67%`, `6%`, `69%`, `70%`, `71%`, `72%`, `73%`, `74%`, `75%`, `76%`, `77%`, `7%`, `79%`, `0%`, `1%`, `2%`, `5%`, `4%`, `5%`, `6%`, `7%`, `%`, `9%`, `90%`, `91%`, `92%`, `93%`, `94%`, `95%`, `96%`, `97%`, `9%`, `99%`, `O chifre desse ai bate na lua ksksksk`]
+const porcentagemc = porcentagemcorno[Math.floor(Math.random() * porcentagemcorno.length)]
+const porcentag = porcentagemcorno[Math.floor(Math.random() * porcentagemcorno.length)]
+const porcent = porcentagemcorno[Math.floor(Math.random() * porcentagemcorno.length)]
+const porcl = porcentagemcorno[Math.floor(Math.random() * porcentagemcorno.length)]
+const porg = porcentagemcorno[Math.floor(Math.random() * porcentagemcorno.length)]
+const prg = porcentagemcorno[Math.floor(Math.random() * porcentagemcorno.length)]
+ytb = `
+Esses são os cornos do grupo ${groupName}\n@${cornos1.id.split('@')[0]}\nCom uma porcentagem de ${porcent}\n@${cornos2.id.split('@')[0]}\nCom uma porcentagem de ${porcentag}\n@${cornos3.id.split('@')[0]}\nCom uma porcentagem de ${porcl}\n@${cornos4.id.split('@')[0]}\nCom uma porcentagem de ${porg}\n@${cornos5.id.split('@')[0]}\nCom uma porcentagem de ${prg}\n\n💧⃟ᏀᑌᏒ⋀-ＢᎾ⃟Τ💧`
+membr.push(cornos1.id)
+membr.push(cornos2.id)
+membr.push(cornos3.id)
+membr.push(cornos4.id)
+membr.push(cornos5.id)
+mentions(ytb, membr, true)
+break
+
+
+case 'putinhas': case 'rankputas':
+if (!isGroup) return enviar('*Isso parece um grupo animal?*')
+member = []
+const z1 = groupMembers
+const z2 = groupMembers
+const z3 = groupMembers
+const z4 = groupMembers
+const z5 = groupMembers
+const d1 = z1[Math.floor(Math.random() * z1.length)]
+const d2 = z2[Math.floor(Math.random() * z2.length)]
+const d3 = z3[Math.floor(Math.random() * z3.length)]
+const d4 = z4[Math.floor(Math.random() * z4.length)]
+const d5 = z5[Math.floor(Math.random() * z5.length)]
+luy = `
+Paradas!💦\n\n1=😈@${d1.id.split('@'
+  )[0]}😈\n\n\n2=😈@${d2.id.split('@'
+  )[0]}😈\n\n\n3=😈@${d3.id.split('@'
+  )[0]}😈\n\n\n4=😈@${d4.id.split('@'
+  )[0]}😈\n\n\n5=😈@${d5.id.split('@')[0]}🤚🤭\n\n\n put@s gostosas dms😳  enviem nud no PV do dono😊 by: 💧⃟ᏀᑌᏒ⋀-ＢᎾ⃟Τ💧`
+member.push(z1.id)
+member.push(z2.id)
+member.push(z3.id)
+member.push(z4.id)
+member.push(z5.id)
+mentions(luy, member, true)
+break
+
+
+case 's/n': //jogos
+if (!isGroup) return enviar("APENAS EM GRUPO ,AMIGUINHO🙂")//PEDI O REGISTRO
+const sn = ['sim', 'não']
+const gosto = body.slice(3)
+if (args.length < 1) return conn.sendMessage(from, `Você deve fazer uma pergunta...\nExemplo: ${p}sn O ${pushname} é um baiano preguiçoso?`, text, {quoted: GURA})
+const jawab = sn[Math.floor(Math.random() * (sn.length))]
+hasil = `${gosto}\n\nSegundo meus cálculos, eu acredito que... ${jawab}`
+enviar(hasil)
+break
+
+case 'pau'://Jogos
+random = `${Math.floor(Math.random() * 35)}`
+const tamanho = random
+if (tamanho < 13 ) {pp = 'só a fimose'} else if (tamanho == 13 ) {pp = 'passou da média😳'} else if (tamanho == 14 ) {pp = 'passou da média😳'} else if (tamanho == 15 ) {pp = 'eita, vai pegar manga?'} else if (tamanho == 16 ) {pp = 'eita, vai pegar manga?'} else if (tamanho == 17 ) {pp = 'calma man, a mina não é um poço😳'} else if (tamanho == 18 ) {pp = 'calma man, a mina não é um poço😳'} else if (tamanho == 19 ) {pp = 'calma man, a mina não é um poço😳'} else if (tamanho == 20 ) {pp = 'você tem um poste no meio das pernas'} else if (tamanho == 21 ) {pp = 'você tem um poste no meio das pernas'} else if (tamanho == 22 ) {pp = 'você tem um poste no meio das pernas'} else if (tamanho == 23 ) {pp = 'você tem um poste no meio das pernas'} else if (tamanho == 24 ) {pp = 'você tem um poste no meio das pernas'} else if (tamanho > 25 ) {pp = 'vai procurar petróleo com isso?'
+}
+hasil = `Seu pau tem ${random}cm\n\n${pp}`
+enviar(hasil)
+break
+
+case 'rankpau':
+if (!isGroup) return enviar('*Isso parece um grupo animal?*')
+membr = []
+const pauz1 = groupMembers
+const pauz2 = groupMembers
+const pauz3 = groupMembers
+const pauz4 = groupMembers
+const pauz5 = groupMembers
+const paus1 = pauz1[Math.floor(Math.random() * pauz1.length)]
+const paus2 = pauz2[Math.floor(Math.random() * pauz2.length)]
+const paus3 = pauz3[Math.floor(Math.random() * pauz3.length)]
+const paus4 = pauz4[Math.floor(Math.random() * pauz4.length)]
+const paus5 = pauz5[Math.floor(Math.random() * pauz5.length)]
+var pcpau1 = ["Minuscúlo", `Pequenino`, `Pequeno`, `Médio`, `Grandinho`, `Grande`, `Grandão`, `Gigante`, `Gigantesco`, `Enorme`, `BATENDO NA LUA`, `QUEIMADO, TÃO GRANDE QUE BATEU NO SOL E QUEIMOU ksksksk`]
+var pcpau2 = ["Minuscúlo", `Pequenino`, `Pequeno`, `Médio`, `Grandinho`, `Grande`, `Grandão`, `Gigante`, `Gigantesco`, `Enorme`, `BATENDO NA LUA`, `QUEIMADO, TÃO GRANDE QUE BATEU NO SOL E QUEIMOU ksksksk`]
+var pcpau3 = ["Minuscúlo", `Pequenino`, `Pequeno`, `Médio`, `Grandinho`, `Grande`, `Grandão`, `Gigante`, `Gigantesco`, `Enorme`, `BATENDO NA LUA`, `QUEIMADO, TÃO GRANDE QUE BATEU NO SOL E QUEIMOU ksksksk`]
+var pcpau4 = ["Minuscúlo", `Pequenino`, `Pequeno`, `Médio`, `Grandinho`, `Grande`, `Grandão`, `Gigante`, `Gigantesco`, `Enorme`, `BATENDO NA LUA`, `QUEIMADO, TÃO GRANDE QUE BATEU NO SOL E QUEIMOU ksksksk`]
+var pcpau5 = ["Minuscúlo", `Pequenino`, `Pequeno`, `Médio`, `Grandinho`, `Grande`, `Grandão`, `Gigante`, `Gigantesco`, `Enorme`, `BATENDO NA LUA`, `QUEIMADO, TÃO GRANDE QUE BATEU NO SOL E QUEIMOU ksksksk`]
+const pc1 = pcpau1[Math.floor(Math.random() * pcpau1.length)]
+const pc2 = pcpau2[Math.floor(Math.random() * pcpau2.length)]
+const pc3 = pcpau3[Math.floor(Math.random() * pcpau3.length)]
+const pc4 = pcpau4[Math.floor(Math.random() * pcpau4.length)]
+const pc5 = pcpau5[Math.floor(Math.random() * pcpau5.length)]
+pdr = `Esses são os caras com o menor e maior pau do Grupo\n${groupName}\n\n@${paus1.id.split('@')[0]}\n${pc1}\n@${paus2.id.split('@')[0]}\n${pc2}\n@${paus3.id.split('@')[0]}\n${pc3}\n@${paus4.id.split('@')[0]}\n${pc4}\n@${paus5.id.split('@')[0]}\n${pc5}\n\n 💧⃟ᏀᑌᏒ⋀-ＢᎾ⃟Τ💧`
+membr.push(paus1.id)
+membr.push(paus2.id)
+membr.push(paus3.id)
+membr.push(paus4.id)
+membr.push(paus5.id)
+mentions(pdr, membr, true)
+break 
+
+
+case 'rankgostosas': case 'rankgostosa':
+if (!isGroup) return enviar('*Isso parece um grupo animal?*')
+member = []
+const p1 = groupMembers
+const p2 = groupMembers
+const p3 = groupMembers
+const p4 = groupMembers
+const p5 = groupMembers
+const o1 = p1[Math.floor(Math.random() * p1.length)]
+const o2 = p2[Math.floor(Math.random() * p2.length)]
+const o3 = p3[Math.floor(Math.random() * p3.length)]
+const o4 = p4[Math.floor(Math.random() * p4.length)]
+const o5 = p5[Math.floor(Math.random() * p5.length)]
+luy = `
+Paradas!🤚🤚\n\n1=🤚🤭@${o1.id.split('@')[0]}🤚🤭\n\n\n2=🤚🤭@${o2.id.split('@')[0]}🤚🤭\n\n\n3=🤚🤭@${o3.id.split('@')[0]}🤚🤭\n\n\n4=🤚🤭@${o4.id.split('@')[0]}🤚🤭\n\n\n5=🤚🤭@${o5.id.split('@')[0]}🤚🤭\n\n\nMultas por serem gostosas dms😳 pague pena enviando nud no PV do dono😊 by Bot`
+member.push(o1.id)
+member.push(o2.id)
+member.push(o3.id)
+member.push(o4.id)
+member.push(o5.id)
+mentions(luy, member, true)
+break
+
+case 'ranknazista':
+if (!isGroup) return enviar('*Isso parece um grupo animal?*')
+try{
+d = []
+teks = '🧐Rank dos mais nazistas do gp\n'
+for(i = 0; i < 5; i++) {
+r = Math.floor(Math.random() * groupMetadata.participants.length + 0)
+teks += `❧🧐@${groupMembers[r].id.split('@')[0]}\n`
+d.push(groupMembers[r].id)
+}
+mentions(teks, d, true)
+} catch (e) {
+console.log(e)
+enviar('Deu erro, tente novamente :/')
+}
+break
+
+case 'rankotakus':
+if (!isGroup) return enviar('*rank Virgens,digo otakus😅*')
+membr = []
+const otaku1 = groupMembers
+const otaku2 = groupMembers
+const otaku3 = groupMembers
+const otaku4 = groupMembers
+const otaku5 = groupMembers
+const otaku6 = groupMembers
+const otaku7 = groupMembers
+const otaku = groupMembers
+const otaku9 = groupMembers
+const otaku10 = groupMembers
+const otakus1 = otaku1[Math.floor(Math.random() * otaku1.length)]
+const otakus2 = otaku2[Math.floor(Math.random() * otaku2.length)]
+const otakus3 = otaku3[Math.floor(Math.random() * otaku3.length)]
+const otakus4 = otaku4[Math.floor(Math.random() * otaku4.length)]
+const otakus5 = otaku5[Math.floor(Math.random() * otaku5.length)]
+const otakus6 = otaku6[Math.floor(Math.random() * otaku6.length)]
+const otakus7 = otaku7[Math.floor(Math.random() * otaku7.length)]
+const otakus = otaku[Math.floor(Math.random() * otaku.length)]
+const otakus9 = otaku9[Math.floor(Math.random() * otaku9.length)]
+const otakus10 = otaku10[Math.floor(Math.random() * otaku10.length)]
+ytb = `esses são os otakus fedidos do grupo\n@${otakus1.id.split('@')[0]}\n@${otakus2.id.split('@')[0]}\n@${otakus3.id.split('@')[0]}\n@${otakus4.id.split('@')[0]}\n@${otakus5.id.split('@')[0]}\n@${otakus6.id.split('@')[0]}\n@${otakus7.id.split('@')[0]}\n@${otakus.id.split('@')[0]}\n@${otakus9.id.split('@')[0]}\n@${otakus10.id.split('@')[0]}\n\n き💧⃟ᏀᑌᏒ⋀-ＢᎾ⃟Τ💧`
+membr.push(otakus1.id)
+membr.push(otakus2.id)
+membr.push(otakus3.id)
+membr.push(otakus4.id)
+membr.push(otakus5.id)
+membr.push(otakus6.id)
+membr.push(otakus7.id)
+membr.push(otakus.id)
+membr.push(otakus9.id)
+membr.push(otakus10.id)
+mentions(ytb, membr, true)
+break
+            ❮_____FIM_____❯ 
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+        ❮SOBRE A BY7TK_COMMUNITY❯ 
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  ▇▇▇▓▒░        「✦」          ░▒▓▇▇▇
+ à comunidade by7tk_community! 💻🔒🚀 Somos uma comunidade apaixonada por hacking, scripting e desenvolvimento de mod menus para jogos. Aqui, exploramos o mundo da tecnologia de forma ética, promovendo conhecimento, compartilhando ideias e colaborando para o avanço da comunidade de jogos.
+
+💡 Nossos membros são entusiastas de diferentes áreas, como programação, segurança cibernética e desenvolvimento de software. Buscamos constantemente aprimorar nossas habilidades e aprender uns com os outros.
+
+🌐 Compartilhamos tutoriais, dicas e truques sobre hacking, scripting e mod menus. Também discutimos tendências, ferramentas e novidades no mundo dos jogos.
+
+🔐 Nosso lema é 'hackear com ética'. Acreditamos na importância de entender a segurança dos sistemas e aplicativos, sempre respeitando as leis e as políticas de privacidade.
+
+🤝 Junte-se a nós para expandir seus conhecimentos, colaborar em projetos empolgantes e fazer parte de uma comunidade vibrante de entusiastas de tecnologia.
+
+📩 Envie-nos uma mensagem ou marque-nos usando #by7tk_community para fazer parte dessa jornada emocionante!
+
+#hackercommunity #scripting #modmenu #ethicalhacking #gamedevelopment"
+
+
+
+F.SOCIETY
+FODASE A SOCIEDADE
